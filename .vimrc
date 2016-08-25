@@ -61,7 +61,7 @@ set rtp+=~/.fzf
 " Movement
 nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
 nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
-inoremap jj <Esc>
+inoremap jj <Esc>l
 " Ctrl-a goes to the beginning of the line
 noremap <C-A> ^
 " Ctrl-e goes to the end of the line
