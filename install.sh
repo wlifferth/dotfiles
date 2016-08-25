@@ -9,4 +9,5 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Symlink all the things that need to be in the home directory
 ln -sf "$DOTFILES_DIR/.zshrc" ~
 ln -sf "$DOTFILES_DIR/.vimrc" ~
+ln -sf "$DOTFILES_DIT/.vim" ~
 
