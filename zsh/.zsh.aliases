@@ -1,0 +1,21 @@
+##################################################################
+#
+#         .zsh_files/.zsh.aliases file
+#
+#         Read in every time a new interactive zsh is started.
+#         Defines some useful aliases.
+#
+##################################################################
+
+alias RM='rm -f'
+
+alias c='clear'
+alias ls="ls -FHG"
+alias la="ls -la"
+alias ll="ls -lh"
+alias lla="ls -lah"
+alias view="vim -R"
+alias l='less'
+
+alias python="python3" # Default to python3
+alias vim="/usr/local/Cellar/vim/7.4.2152/bin/vim" # Uses homebrew version of vim instead of OSX preinstalled version

@@ -1,0 +1,1088 @@
+vim laba.cpp
+cd cs140/labs/lab9
+cd ..
+ls
+mkdir lab10
+cd lab10
+cp  ~bvz/cs140/Labs/Lab10 .
+cp  ~bvz/cs140/Labs/Laba .
+cp  ~bvz/cs140/Labs/LabA .
+ls
+cp  http://web.eecs.utk.edu/~bvz/cs140/Labs/LabA/ .
+cp  http://web.eecs.utk.edu/~bvz/cs140/Labs/LabA/laba.h
+cp  http://web.eecs.utk.edu/~bvz/cs140/Labs/LabA/laba.h .
+ls
+vim laba.h
+vim laba.cpp
+vim laba_test.cpp
+vim laba.h
+vim laba.cpp
+more laba.hj
+more laba.h
+vim laba.cpp
+g++ -o laba laba.cpp
+g++ -o laba laba.cpp
+clear
+clear
+g++ -o laba laba.cpp
+g++ -o laba laba.cpp
+ls
+g++ -o laba_test laba_test.cpp
+cd cs140/labs/lab10
+ls
+vim laba.cpp
+cd cs140/labs/lab10
+ls
+cp ~plank/plank/classes/cs140/Labs/LabA .
+ls ~plank/plank/classes/cs140/
+ls ~plank/
+ls ~plank/plank/
+ls ~plank/cs140
+ls ~plank/cs140/Labs/
+ls ~plank/cs140/Labs/LabA
+cp ~plank/cs140/Labs/LabA .
+cp -rf ~plank/cs140/Labs/LabA .
+ls
+ls LabA
+cp LabA/grade* .
+ls
+./gradeall
+./gradescript 1
+ls
+ls LabA
+cp laba_test.cpp
+cp laba_test.cpp .
+cp LabA/makefile .
+ls
+make
+ls
+ls LabA
+cp laba_test .
+cp LabA/laba_test .
+./gradescript 1
+./gradeall
+make
+clear
+vim laba.cpp
+vim laba.h
+make
+vim laba_test.cpp
+make
+make
+make
+make
+make
+make
+./gradeall
+./gradescript 1
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+make
+make
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+./gradescript 1
+./gradeall
+ls
+g++ -o laba_test -g laba.cpp laba_test.cpp
+./gradescript 1
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+valgrind -v ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+g++ -o laba_test -g laba.cpp laba_test.cpp
+valgrind -v ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+g++ -o laba_test -g laba.cpp laba_test.cpp
+valgrind -v ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+clear
+clear
+valgrind -v ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+g++ -o laba_test -g laba.cpp laba_test.cpp
+clear
+valgrind -v ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+cd cs140/labs/laba
+cd cs140/labs/labA
+cd cs140/labs/lab10
+ls
+vim laba.cpp
+cd cs140/labs/lab10
+ls
+./gradeall
+./gradscript 22
+./gradescript 22
+ls
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/022.txt
+ls
+cd cs140/labs/lab10
+ls
+more laba.h
+ls
+laba.cpp ls
+g++ -g -o laba_test laba.cpp laba_test.cpp
+./gradescript 1
+ls
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+g++ -g -o laba_test laba.cpp laba_test.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/001.txt
+ls
+./gradescript 1
+./gradeall
+./gradescript 2
+more tmp-002-test-stdout.txt
+more tmp-002-correct-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+more tmp-002-correct-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+more tmp-002-correct-stdout.txt
+make
+./gradescript 2
+./gradeall
+./gradescript 11
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/011.txt
+more tmp-011-test-stdout.txt
+tmp-011-correct-stdout.txt
+more tmp-011-correct-stdout.txt
+make
+./gradescript 11
+./gradeall
+./gradescript 21
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/021.txt
+more tmp-021-test-stdout.txt
+more tmp-021-correct-stdout.txt
+more laba.h
+make
+./gradescript 21
+./gradeall
+./gradescript 22
+g++ -g -o laba_test laba.cpp laba_test.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/022.txt
+g++ -g -o laba_test laba.cpp laba_test.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/022.txt
+./gradescript 22
+./gradeall
+./gradescript 31
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/031.txt
+make
+./gradescript 31
+./gradeall
+./gradescript 32
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/032.txt
+more tmp-032-test-stdout.txt
+more tmp-032-correct-stdout.txt
+make
+./gradescript 32
+make
+./gradescript 32
+./gradeall
+./gradescript 33
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/033.txt
+more tmp-033-test-stdout.txt
+more tmp-033-correct-stdout.txt
+make
+./gradeall
+./gradescript 37
+./gradescript 38
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/038.txt
+more tmp-038-test-stdout.txt
+more tmp-038-correct-stdout.txt
+./laba_test
+./laba_test -
+./laba_test -
+./laba_test >>>> 
+./laba_test '==== ' 
+make
+./gradescript 38
+make
+./gradescript 38
+make
+./laba_test '==== ' 
+make
+./laba_test '==== ' 
+clear
+exit
+cd cs140/labs/lab10
+ls
+ls
+make
+./gradeall
+ls
+cd laba.cpp
+vim laba.cpp
+clear
+exit
+ls
+make
+cd cs140/labs/lab10
+ls
+make
+./gradeall
+./gradescript 32
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/032.txt
+tmp-032-correct-stdout.txt
+more tmp-032-correct-stdout.txt
+more tmp-032-test-stdout.txt
+make
+./gradescript 32
+./gradeall
+./gradescript 38
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/038.txt
+./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/038.txt
+./laba_test -
+make
+./gradeall
+./gradescript 32
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/032.txt
+./laba_test - 
+make
+./laba_test - 
+./laba_test - 
+make
+make
+./laba_test - 
+make
+./laba_test - 
+make
+./laba_test - 
+make
+./laba_test - 
+make
+./laba_test - 
+clear
+make
+./laba_test - 
+./gradescript 32
+./gradeall
+./gradescript 41
+make
+make
+./gradescript 41
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+more tmp-041-correct-stdout.txt
+more tmp-041-test-stdout.txt
+./laba_test -
+make
+make
+./laba_test -
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test -
+ls
+cd cs140/labs/lab10
+ls
+ls
+./gradeall
+./gradescript 34
+./gradescript 38
+/home/plank/cs140/Labs/LabA/Gradescript-Examples/038.txt
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/038.txt
+ls
+vim laba.cpp
+cd cs140/labs/lab10
+ls
+ls
+cd cs140/labs/lab10
+ls
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+cd cs140/labs/alb10
+ls
+cd cs140/labs/alb10
+cd cs140/labs/lab10
+ls
+make
+./gradeall
+./gradescript 41
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+cd cs140/labs/lab10
+ls
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+clear
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+clear
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+make
+clear
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+clear
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+clear
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+g++ -g -o laba_test laba_test.cpp laba.cpp
+clear
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+make
+make
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+make
+g++ -g -o laba_test laba_test.cpp laba.cpp
+valgrind ./laba_test - < /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+make
+g++ -g -o laba_test laba_test.cpp laba.cpp
+./gradeall
+./gradescript 41
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+more tmp-041-correct-stdout.txt
+more tmp-041-test-stdout.txt
+./laba_test - 
+make
+./laba_test - 
+./gradescript 41
+./gradescript 42
+./gradescript 41
+make
+./gradescript 41
+./gradescript 42
+make
+./gradescript 41
+./laba_test -
+more /home/plank/cs140/Labs/LabA/Gradescript-Examples/041.txt
+./laba_test -
+make
+./laba_test -
+./gradescript 41
+make
+./gradescript 42
+./gradeall
+submit_140
+140_submit
+ls
+vim laba.cpp
+ls
+cd cs140/labs/lab10
+ls
+vim laba.cpp
+cd ..
+ls
+cd lab9
+ls
+cd ..
+ls
+ls
+cd lab10
+ls
+140_submit
+ls
+cd cs140/labs/lab11
+ls
+cp /home/plank/cs140/Labs/Lab11 .
+ls /home/plank/cs140/Labs/
+cp -rf /home/plank/cs140/Labs/LabC .
+ls
+ls LabC
+ls /home/plank/cs140/Labs/LabA
+ls /home/plank/cs140/Labs/LabC
+ls /home/plank/cs140/Labs/LabD
+ls /home/plank/cs140/Labs/LabB
+cd ../lab10/laba* .
+cp ../lab10/laba* .
+ls
+cd ..
+ls
+rm lab11
+cd lab11
+ls
+rm laba*
+ls
+cp -rf ~bvz/cs140/Labs/LabB/ .
+ls
+ls LabB
+cp avl* .
+cp LabB/avl* .
+cp LabB grade* .
+cp LabB/grade* .
+ls
+cp ../lab10/laba.cpp .
+ls
+mv laba.cpp avltree.cpp
+ls
+make
+cp ../lab10/make .
+cp ../lab10/makefile .
+ls
+make
+vim makefil
+vim makefile
+make
+vim avltree.cpp
+make
+ls
+more avltree.h
+vim avltree.cpp
+clear
+eixt
+exit
+cd cs140/labs/lab10
+cd ../lab11
+ls
+make
+more avltree.h
+make
+make
+clear
+make
+make
+make
+exit
+ls
+cd cs140/labs
+ls
+mkdir lab11
+cd lab11
+cd cs140/labs/lab11
+ls
+make
+make
+make
+./gradeall
+./gradescript 40
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/040.txt
+./gradescrip 1
+./gradescript 1
+/home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/001.txt
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/001.txt
+cd cs140/labs
+cd lab11
+ls
+vim avltree.cpp
+cd cs140/labs/lab11
+ls
+ls
+more avltree.h
+make
+make
+make
+./gradeall
+make
+./gradeall
+./gradescript 1
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/001.txt
+tmp-001-test-stdout.txt
+more tmp-001-test-stdout.txt
+more tmp-001-correct-stdout.txt
+ls
+ls
+ ls LabB
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+tmp-001-correct-stdout.txt
+more mp-001-correct-stdout.txt
+more tmp-001-correct-stdout.txt
+make
+./gradescript 1
+./avltree_test - 
+make
+./gradescript 1
+more INSERT Fred  711-319-5849 469-69-0836
+INSERT Wilma 724-594-7416 617-23-4828
+INSERT Barney 813-586-9974 956-88-1786
+more tmp-001-test-stdout.txt
+make
+make
+make
+make
+./gradescript 1
+more tmp-001-test-stdout.txt.
+more tmp-001-test-stdout.txt
+more tmp-001-correct-stdout.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+more tmp-001-correct-stdout.txt
+make
+./gradeall
+./gradescript 1
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/001.txt
+more tmp-001-test-stdout.txt
+more tmp-001-correct-stdout.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+ls
+cd cs140/labs/lab10
+ls
+cd ../lab11
+ls
+ls
+vim avltree.cpp
+cd cs140/labs/lab10
+ls
+vim makefile
+cd cs140/labs/lab11
+ls
+more avltree.h
+more avltree.cpp
+cd cs140/labs/lab11
+ls
+make
+./gradeall
+./gradescript 1
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/001.txt
+./gradescript 2
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/002.txt
+make
+./gradescript 2
+more makefile
+g++ -g -o avltree_test avltree_test.o avltree.o
+valgrind ./avltree_test - < /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/002.txt
+valgrind --track-origins=yes ./avltree_test - < /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/002.txt
+g++ -g -o avltree_test avltree_test.o avltree.o
+valgrind --track-origins=yes ./avltree_test - < /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/002.txt
+g++ -g -o avltree_test avltree_test.cpp avltree.cpp
+valgrind --track-origins=yes ./avltree_test - < /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/002.txt
+cd cs140/labs/lab10
+ks
+ls
+cd ..
+ls
+cd lab11
+ls
+./gradeall
+vim avltree.cpp
+cd cs140/labs/lab11
+ls
+ls
+make
+./gradescript 1
+make
+./gradescript 1
+make
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+make
+./gradescript 1
+./gradescript 1
+make
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+cd cs140/labs/lab10
+cd ../lab11
+ls
+ls
+vim avltree.cpp
+ls
+cd cs140/labs/lab11
+ls
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+make
+./gradescript 1
+valgrind ./avltree_test - < /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/001.txt
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+./gradescript 1
+make
+./gradescript 1
+more tmp-001-test-stdout.txt
+make
+more tmp-001-test-stdout.txt
+./gradescript 1
+./gradescript 2
+make
+./gradescript 2
+./gradescript 2
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+./gradescript 8
+./avltree_test - < /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/008.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+./gradescript 1
+./gradescript 2
+make
+./gradescript 1
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 1
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 1
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 1
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 1
+./gradescript 2
+./gradescript 3
+make
+./gradescript 1
+./gradescript 2
+./gradescript 3
+make
+./gradescript 1
+./gradescript 2
+./gradescript 3
+more tmp-003-test-stdout.txt
+more tmp-003-correct-stdout.txt
+make
+./gradescript 1
+./gradescript 2
+./gradescript 3
+./gradescript 4
+more tmp-004-test-stdout.txt
+make
+make
+./gradescript 1
+./gradescript 2
+make
+ls
+vim avltree.h
+make
+./gradescript 1
+./gradescript 2
+./gradescript 3
+./gradescript 4
+more tmp-004-test-stdout.txt
+make
+./gradescript 4
+more tmp-004-test-stdout.txt
+more tmp-004-correct-stdout.txt
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/004.txt
+make
+./gradescript 4
+make
+./gradescript 4
+./gradeall
+./gradescript 7
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/007.txt
+more tmp-007-test-stdout.txt
+vim avltree.cpp
+vim avltree.h
+make
+./gradescript 1
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/002.txt
+ls
+cd cs140/labs/lab11
+ls
+ls
+./gradeall
+./gradescript 1
+vim avltree.cpp
+vim avltree.cpp
+cd cs140/labs/lab11
+ls
+ls
+ls
+./gradeall
+vim avltree.cpp
+cd
+ls
+cd cs140/labs/lab11
+ls
+./gradeall
+make
+./gradeall
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+more tmp-002-correct-stdout.txt
+make
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+./gradescript 1
+./gradescript 2
+more tmp-002-test-stdout.txt.
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+more tmp-002-test-stdout.txt
+make
+./gradescript 2
+./gradeall
+./gradescript 7
+/home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/007.txt
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/007.txt
+ls
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/007.txt
+more tmp-007-test-stdout.txt
+more tmp-007-correct-stderr.txt
+more tmp-007-correct-stdout.txt
+./avltree_test -
+make
+./avltree_test -
+INSERT Binky 104-710-5116 117-23-0384
+INSERT Fred 377-934-1226 008-08-0798
+INSERT Baby Daisy 618-712-0298 676-65-6439
+INSERT Daisy 010-525-3393 617-50-6533INSERT Eunice 139-907-7805 561-89-2936
+./avltree_test -
+make
+./avltree_test -
+make
+./avltree_test -
+./gradescript 7
+./gradeall
+./gradeall
+./gradescript 42
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/042.txt
+make
+./gradescript 42
+more tmp-042-test-stdout.txt
+make
+./gradescript 42
+more tmp-042-test-stdout.txt
+./avltree_test -
+make
+./gradescript 1
+./gradescript 42
+./gradeall
+./gradescript 39
+./gradescript 40
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/040.txt
+make
+./gradescript 40
+./gradeall
+./gradescript 43
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/043.txt
+./avltree_test -
+more tmp-043-test-stdout.txt
+more tmp-043-correct-stdout.txt
+make
+./gradescript 43
+./gradeall
+./gradescript 39
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/039.txt
+./avltree_test -
+./gradeall
+./gradescript 43
+more tmp-043-test-stdout.txt
+more tmp-043-correct-stdout.txt
+./avltree_test -
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/043.txt
+./avltree_test -
+ls
+cd cs140/labs/lab11
+cd ../lab11a
+vim avltree.cpp
+make
+./gradeall
+make
+./gradeall
+./gradescript 3
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/003.txt
+tmp-003-test-stdout.txt
+more tmp-003-test-stdout.txt
+./avltree_test -
+make
+./gradescript 3
+./gradeall
+./gradescript 43
+tmp-043-correct-stdout.txt
+more tmp-043-correct-stdout.txt
+more tmp-043-test-stdout.txt
+./avltree_test -
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/043.txt
+./avltree_test -
+make
+./gradescript 43
+more tmp-043-test-stdout.txt.
+more tmp-043-test-stdout.txt
+more tmp-043-correct-stdout.txt
+./avltree_test -
+make
+./gradescript 43
+more tmp-043-test-stdout.txt
+more tmp-043-correct-stdout.txt
+make
+./gradescript 43
+./gradeall
+./gradescript 49
+more /home/plank/cs140/Labs/Old-LabA-AVL/Gradescript-Examples/049.txt
+tmp-049-test-stdout.txt
+more tmp-049-test-stdout.txt
+more tmp-049-correct-stdout.txt
+./avltree_test -
+make
+./gradescript 49
+./avltree_test -
+make
+./gradescript 49
+make
+./gradescript 49
+./gradeall
+make
+./gradeall
+140_submit
+make
+./gradeall
+make
+make
+./gradeall
+make
+./gradeall
+make
+./gradeall
+make
+make
+./gradeall
+make
+./gradeall
+140_submit
+cd cs140/labs/lab11
+ls
+./gradeall
+./gradescript 43
+ls
+cd ..
+ls
+cp -rf lab11 lab11a
+cd lab11a
+l
+sls
+ls
+vim avltree.cpp
+vim avltree.cpp
+ls
+ls -a
+vim .bashrc
+exit
+ls
+./.bashrc
+ exit
+ls
+vim .bash_profile
+exit
+ls
+clear
+logout
+exit
+bash
+exit
+ls -a
+vim .bash_profile
+exit
+ls
+mv .basexit_
+mv .bash_profile .profile
+exit
+ls
+more .profile
+vim .profile
+vim .bashrc
+exit
+ls
+mv .profile .bash_profile
+more .bash_
+more .bash_profile
+vim .bash_profile
+exit
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd home/
+ls
+cd wileliff/
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+ls -l
+cd
+ls
+cd /
+ls
+cd usr
+ls
+cd bin/
+ls
+more login
+cd login
+exit
+bash
+exit
+ls
+cd home
+ls
+mkdir cs311
+mv -R cs140 Documents
+mv cs140 Documents
+ls
+mv cs311 Documents
+ls
+mv Documents/cs311 .
+ls
+ls
+cd cs311
+ls
+ls
+~plank/cs302/Labs/Lab1/gradescript 1
+more /home/plank/cs302/Labs/Lab1/Gradescript-Examples/001.txt
+more tmp-001-correct-stdout.txt
+more tmp-001-test-stdout.txt
+make
+vim lib_info.cpp
+vim makefile
+make
+~plank/cs302/Labs/Lab1/gradescript 1
+more /home/plank/cs302/Labs/Lab1/Gradescript-Examples/001.txt
+more tmp-001-correct-stdout.txt
+more tmp-001-test-stdout.txt
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradescript 1
+more tmp-001-test-stdout.txt
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradescript 1
+more tmp-001-test-stdout.txt
+make
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradescript 1
+~plank/cs302/Labs/Lab1/gradescript 2
+~plank/cs302/Labs/Lab1/gradeall
+~plank/cs302/Labs/Lab1/gradescript 11
+more /home/plank/cs302/Labs/Lab1/Gradescript-Examples/011.txt
+more tmp-011-correct-stdout.txt
+more tmp-011-test-stdout.txt
+vim lib_info.cpp
+ls
+cd cs311
+ls
+clear
+ls
+~plank/cs302/Labs/Lab1/gradescript 11
+more tmp-011-correct-stdout.txt
+more tmp-011-test-stdout.txt
+vim lib_info.cpp
+~plank/cs302/Labs/Lab1/gradescript 11
+more tmp-011-correct-stdout.txt
+more tmp-011-test-stdout.txt
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradeall
+~plank/cs302/Labs/Lab1/gradescript 11
+more /home/plank/cs302/Labs/Lab1/Gradescript-Examples/011.txt
+more /home/plank/cs302/Labs/Lab1/Gradescript-Examples/010.txt
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradescript 11
+more tmp-011-correct-stdout.txt
+more tmp-011-test-stdout.txt
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradescript 11
+~plank/cs302/Labs/Lab1/gradescript 12
+~plank/cs302/Labs/Lab1/gradeall
+vim lib_info.cpp
+make
+~plank/cs302/Labs/Lab1/gradeall
+ls
+cd ~
+ls -a
+more .bash_profile
+vim .bash_profile
+logout
+ls
+vim .profile
+logout
