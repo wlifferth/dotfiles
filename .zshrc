@@ -5,11 +5,11 @@ compinit
 unset MAIL
 
 # Get other shell configuration
-source $HOME/zsh/.zsh.path          # setup the PATH
-source $HOME/zsh/.zsh.manpath       # setup the MANPATH
-source $HOME/zsh/.zsh.aliases       # setup command aliases
-source $HOME/zsh/.zsh.ohmyzsh       # set up oh-my-zsh stuff
-source $HOME/zsh/.zsh.prompt        # set the prompt
+source $DOTFILES_DIR/zsh/.zsh.path          # setup the PATH
+source $DOTFILES_DIR/zsh/.zsh.manpath       # setup the MANPATH
+source $DOTFILES_DIR/zsh/.zsh.aliases       # setup command aliases
+source $DOTFILES_DIR/zsh/.zsh.ohmyzsh       # set up oh-my-zsh stuff
+source $DOTFILES_DIR/zsh/.zsh.prompt        # set the prompt
 
 bindkey -d
 
