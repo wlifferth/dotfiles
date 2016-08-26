@@ -4,12 +4,13 @@ compinit
 # Don't have the shell check for mail
 unset MAIL
 
+SCRIPTPATH=~/.dotfiles
 # Get other shell configuration
-source $DOTFILES_DIR/zsh/.zsh.path          # setup the PATH
-source $DOTFILES_DIR/zsh/.zsh.manpath       # setup the MANPATH
-source $DOTFILES_DIR/zsh/.zsh.aliases       # setup command aliases
-source $DOTFILES_DIR/zsh/.zsh.ohmyzsh       # set up oh-my-zsh stuff
-source $DOTFILES_DIR/zsh/.zsh.prompt        # set the prompt
+source $SCRIPTPATH/.zsh/.zsh.path          # setup the PATH
+source $SCRIPTPATH/.zsh/.zsh.manpath       # setup the MANPATH
+source $SCRIPTPATH/.zsh/.zsh.aliases       # setup command aliases
+source $SCRIPTPATH/.zsh/.zsh.ohmyzsh       # set up oh-my-zsh stuff
+source $SCRIPTPATH/.zsh/.zsh.prompt        # set the prompt
 
 bindkey -d
 
