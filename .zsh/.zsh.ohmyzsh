@@ -27,7 +27,7 @@ HIST_STAMPS="mm/dd/yyyy"
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
-plugins=(git mercurial autojump command-not-found python pip github gnu-utils history-substring-search)
+plugins=(git autojump command-not-found python pip github gnu-utils history-substring-search)
 
 # User configuration
 
