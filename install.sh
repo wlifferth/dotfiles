@@ -9,4 +9,4 @@ SCRIPTPATH=~/.dotfiles
 ln -sf "$SCRIPTPATH/.zshrc" ~
 ln -sf "$SCRIPTPATH/.vimrc" ~
 ln -sf "$SCRIPTPATH/.vim" ~
-
+ln -sf "$SCRIPTPATH/.gitconfig" ~

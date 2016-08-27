@@ -1,0 +1,7 @@
+[user]
+	name = Will Lifferth
+	email = wlifferth@icloud.com
+	ui = true
+	username = wlifferth
+[push]
+	default = simple
