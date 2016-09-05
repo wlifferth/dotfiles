@@ -17,7 +17,3 @@ alias lla="ls -lah"
 alias view="vim -R"
 alias l='less'
 
-alias python="python3" # Default to python3
-if [[ "$OSTYPE" == "darwin"* ]]; then
-	alias vim="/usr/local/Cellar/vim/7.4.2152/bin/vim" # Uses homebrew version of vim instead of OSX preinstalled version
-fi
