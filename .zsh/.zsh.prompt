@@ -44,7 +44,7 @@
   ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
 
   PROMPT="$LIGHTGREEN%D %T $LIGHTGRAY %~
-$LIGHTCYAN%n$NOCOLOR → "
+$LIGHTCYAN%n$CYAN@%m$NOCOLOR → "
 RPROMPT='$(git_prompt_info)'
 
 export PROMPT

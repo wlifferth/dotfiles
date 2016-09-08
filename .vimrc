@@ -40,7 +40,7 @@ noremap <C-A> ^
 " Ctrl-e goes to the end of the line
 noremap <C-E> $
 " map ; to : so you don't have to press shift
-nnoremap ; : 
+nnoremap ; :
 vnoremap ; :
 
 " Spellcheck
