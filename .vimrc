@@ -23,7 +23,7 @@ set lazyredraw                      " only redraws the screen when necessary
 set wrap lbr
 
 " Timeouts
-set timeoutlen=1000
+set timeoutlen=600
 set ttimeoutlen=10
 
 " Searching
@@ -36,12 +36,12 @@ nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
 nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
 inoremap jj <Esc>l
 " Ctrl-a goes to the beginning of the line
-noremap <C-A> ^
+noremap <C-A> g^
 " Ctrl-e goes to the end of the line
-noremap <C-E> $
+noremap <C-E> g$
 " map ; to : so you don't have to press shift
 nnoremap ; :
 vnoremap ; :
 
 " Spellcheck
-command Spellcheck 'setlocal spell spelllang=en_us'
+command Spellcheck :setlocal spell spelllang=en_us

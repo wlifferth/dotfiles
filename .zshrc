@@ -1,5 +1,4 @@
-autoload -U compinit
-compinit
+autoload -U compinstall;
 
 # Don't have the shell check for mail
 unset MAIL
