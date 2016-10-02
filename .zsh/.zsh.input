@@ -1,0 +1,4 @@
+bindkey -v
+bindkey -s jj '\e'
+bindkey jj vi-cmd-mode
+bindkey -M viins ‘jj’ vi-cmd-mode

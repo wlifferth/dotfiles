@@ -23,7 +23,7 @@ set lazyredraw                      " only redraws the screen when necessary
 set wrap lbr
 
 " Timeouts
-set timeoutlen=600
+set timeoutlen=300
 set ttimeoutlen=10
 
 " Searching
@@ -45,3 +45,6 @@ vnoremap ; :
 
 " Spellcheck
 command Spellcheck :setlocal spell spelllang=en_us
+
+" File Stuff
+set noswapfile
