@@ -17,3 +17,4 @@ alias lla="ls -lah"
 alias view="vim -R"
 alias l='less'
 
+alias gst='git status'
