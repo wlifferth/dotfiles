@@ -45,9 +45,14 @@
 
 # RPROMPT='${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_prompt_info)'
 
+git_prompt() {
+     ref=$(git symbolic-ref HEAD | cut -d'/' -f3)
+      echo $ref
+}
+
 function zle-line-init zle-keymap-select {
     VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
-    RPROMPT="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_prompt_info) $EPS1"
+    RPROMPT="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_prompt) $EPS1"
     PROMPT="$LIGHTGREEN%D %T $LIGHTGRAY %~
 $LIGHTCYAN%n$CYAN@%m$NOCOLOR → "
     zle reset-prompt

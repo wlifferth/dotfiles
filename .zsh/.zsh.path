@@ -20,3 +20,5 @@
 
 #Uncomment the line below to use GNU ARM
 ##export PATH="$PATH:/usr/local/gnuarm/bin"
+
+export PATH="$PATH:."
