@@ -1,5 +1,5 @@
 " Colors
-colorscheme ghostbuster    	        " set colorscheme
+colorscheme quantum    	        " set colorscheme
 let g:ghostbuster_italics=1
 set background=dark
 syntax on
