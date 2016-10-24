@@ -9,6 +9,7 @@
 
 alias RM='rm -f'
 
+alias up='cd ..'
 alias c='clear'
 alias ls="ls -FHG"
 alias la="ls -la"
@@ -17,4 +18,8 @@ alias lla="ls -lah"
 alias view="vim -R"
 alias l='less'
 
+# GIT
+alias glog='git log --oneline'
 alias gst='git status'
+
+
