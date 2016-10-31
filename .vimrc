@@ -22,6 +22,8 @@ filetype indent plugin on           " allows filetype detection
 set wildmenu                        " visual autocomplete for command menu
 set lazyredraw                      " only redraws the screen when necessary
 set wrap lbr
+set vb                              " set the visualbell (so the audible bell is turned off)
+set t_vb=                           " make the visalbell do nothing (so we no longer have bells)
 
 " Timeouts
 set timeoutlen=300
