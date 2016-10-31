@@ -17,6 +17,7 @@ alias ll="ls -lh"
 alias lla="ls -lah"
 alias view="vim -R"
 alias l='less'
+alias du="du -sh * .* | sort -hr"
 
 # GIT
 alias glog='git log --oneline'
