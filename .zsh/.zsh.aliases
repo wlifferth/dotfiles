@@ -11,13 +11,13 @@ alias RM='rm -f'
 
 alias up='cd ..'
 alias c='clear'
-alias ls="ls -FHG"
-alias la="ls -la"
+alias ls="ls -FHG --color=tty"
+alias la="ls -la --color=tty"
 alias ll="ls -lh"
 alias lla="ls -lah"
 alias view="vim -R"
 alias l='less'
-alias du="du -sh * .* | sort -hr"
+alias du="du -shc * .* | sort -hr"
 
 # GIT
 alias glog='git log --oneline'
