@@ -18,6 +18,8 @@ alias lla="ls -lah"
 alias view="vim -R"
 alias l='less'
 alias du="du -shc * .* | sort -hr"
+# Sort ls command with all hidden's first
+export LC_ALL="C"
 
 # GIT
 alias glog='git log --oneline'
