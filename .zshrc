@@ -15,7 +15,9 @@ fi
 if [[ -a $SCRIPTPATH/.zsh/.zsh.machineSpecificPath ]]; then
     source $SCRIPTPATH/.zsh/.zsh.machineSpecificPath
 fi
-source $SCRIPTPATH/.zsh/.zsh.ohmyzsh        # set up oh-my-zsh stuff
+if [[ -a $SCRIPTPATH/.zsh/.zsh.ohmyzsh ]]; then
+    source $SCRIPTPATH/.zsh/.zsh.ohmyzsh        # set up oh-my-zsh stuff
+fi
 source $SCRIPTPATH/.zsh/.zsh.prompt         # set the prompt
 source $SCRIPTPATH/.zsh/.zsh.input          # set up vim-like commands in zsh
 
