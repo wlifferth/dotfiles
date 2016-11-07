@@ -10,8 +10,7 @@
 alias RM='rm -f'
 
 alias c='clear'
-alias ls="gls -FHG --color=tty"
-alias la="ls -la"
+alias la="gls -FHG --color=tty -la"
 alias ll="ls -lh"
 alias lla="ls -lah"
 alias view="vim -R"
