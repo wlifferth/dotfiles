@@ -5,14 +5,18 @@
 #         Read in every time a new interactive zsh is started.
 #         Defines some useful aliases.
 #
-##################################################################
+###################################################################
+
+# Get rid of all other aliases
+unalias -m '*'
 
 alias RM='rm -f'
 
 alias c='clear'
-alias la="gls -FHG --color=tty -la"
+alias la="ls -FHG -la"
 alias ll="ls -lh"
 alias lla="ls -lah"
+export CLICOLOR=1
 alias view="vim -R"
 alias l='less'
 alias du="du -shc * .* | sort -hr"
