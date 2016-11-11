@@ -19,7 +19,7 @@ alias lla="ls -lah"
 export CLICOLOR=1
 alias view="vim -R"
 alias l='less'
-alias du="du -shc * .* | sort -hr"
+alias dum="du -shc * .* | sort -hr"
 # Sort ls command with all hidden's first
 export LC_ALL="C"
 
