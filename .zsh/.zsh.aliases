@@ -19,8 +19,7 @@ alias lla="ls -lah"
 export CLICOLOR=1
 alias view="vim -R"
 alias l='less'
-alias dum="{du -shc * & du -shc .*} | sort -hr"
-export LC_ALL="C"
+alias dum="du -shc .* * | sort -hr"
 autoload -U zmv # Load the zmv command
 
 # GIT
