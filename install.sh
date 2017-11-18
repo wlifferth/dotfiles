@@ -14,4 +14,6 @@ ln -sf "$SCRIPTPATH/.vim" ~
 echo '.vim symbolically linked to the home directory'
 ln -sf "$SCRIPTPATH/.gitconfig" ~
 echo '.gitconfig symbolically linked to the home directory'
+ln -sf "$SCRIPTPATH/.tmux.conf" ~
+echo '.tmux.conf symbolically linked to the home directory'
 echo '.dotfiles succesfully installed!'
