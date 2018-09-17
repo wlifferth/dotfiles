@@ -3,7 +3,7 @@ autoload -U compinstall;
 # Don't have the shell check for mail
 unset MAIL
 
-SCRIPTPATH=~/.dotfiles
+SCRIPTPATH=~/dotfiles
 # Get other shell configuration
 if [[ -a $SCRIPTPATH/.zsh/.zsh.ohmyzsh ]]; then
     source $SCRIPTPATH/.zsh/.zsh.ohmyzsh        # set up oh-my-zsh stuff
