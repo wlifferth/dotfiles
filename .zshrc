@@ -14,11 +14,8 @@ source $SCRIPTPATH/.zsh/.zsh.prompt         # set the prompt
 source $SCRIPTPATH/.zsh/.zsh.input          # set up vim-like commands in zsh
 source $SCRIPTPATH/.zsh/.zsh.aliases        # setup command aliases
 # To add machine specific aliases go to
-if [[ -a $SCRIPTPATH/.zsh/.zsh.machineSpecificAliases ]]; then
-    source $SCRIPTPATH/.zsh/.zsh.machineSpecificAliases
-fi
-if [[ -a $SCRIPTPATH/.zsh/.zsh.machineSpecificPath ]]; then
-    source $SCRIPTPATH/.zsh/.zsh.machineSpecificPath
+if [[ -a $SCRIPTPATH/.zsh/.zsh.machineSpecific ]]; then
+    source $SCRIPTPATH/.zsh/.zsh.machineSpecific
 fi
 
 
