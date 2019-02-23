@@ -1,5 +1,4 @@
 " Colors
-colorscheme quantum    	        " set colorscheme
 let g:ghostbuster_italics=1
 set background=dark
 syntax on
@@ -75,3 +74,7 @@ function! Smart_TabComplete()
 endfunction
 
 inoremap <tab> <c-r>=Smart_TabComplete()<CR>
+
+" Turn spellcheck on by default in markdown files
+autocmd BufRead,BufNewFile   *.md setlocal spell
+autocmd BufRead,BufNewFile   *.md setlocal spelllang=en_us
