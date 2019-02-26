@@ -143,8 +143,8 @@ export PROMPT
 
 
 # To add machine specific aliases go to
-if [[ -a $SCRIPTPATH/.zsh/.zsh.machineSpecific ]]; then
-    source $SCRIPTPATH/.zsh/.zsh.machineSpecific
+if [[ -a $SCRIPTPATH/.zshrc.machine-specific ]]; then
+    source $SCRIPTPATH/.zshrc.machine-specific
 fi
 
 umask 077
