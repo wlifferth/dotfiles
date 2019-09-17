@@ -8,6 +8,8 @@ SCRIPTPATH=~/dotfiles
 # Symlink all the things that need to be in the home directory
 ln -sf "$SCRIPTPATH/.zshrc" ~
 echo '.zshrc symbolically linked to the home directory'
+ln -sf "$SCRIPTPATH/.bashrc" ~
+echo '.bashrc symbolically linked to the home directory'
 ln -sf "$SCRIPTPATH/.vimrc" ~
 echo '.vimrc symbolically linked to the home directory'
 ln -sf "$SCRIPTPATH/.gitconfig" ~
