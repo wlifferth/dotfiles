@@ -7,7 +7,6 @@ SCRIPTPATH=~/dotfiles
 # ALIASES                             #
 #######################################
 alias sudo='sudo ' # This makes the shell check for aliases _after_ sudo
-unalias -m '*' # Get rid of all other aliases
 
 # General CL Utilities
 alias c='clear'
@@ -39,10 +38,11 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 
+alias python='python3'
+
 #######################################
 # INPUT                               #
 #######################################
-
 # Vim-like key bindings
 set -o vi
 bind '"jj":vi-movement-mode'
@@ -86,15 +86,21 @@ ABLUE='[0;34m'
 ACYAN='[0;36'
 APURPLE='[0;35m'
 
-PS1="${LIGHTYELLOW}\\T ${LIGHTGRAY}\\W
-${LIGHTCYAN}\\u$CYAN@\\h$NOCOLOR$ "
+PS1="
+\\[\\e[1;33m[\\T]\\] \\[\\e[0m\\]\\u@\\H
+\\[\\e[0;37m\$PWD\\]
+$ "
 
 export PS1
 
+#######################################
+# ETC                                 #
+#######################################
+
 
 # To add machine specific aliases go to
-if [[ -a $SCRIPTPATH/.zshrc.machine-specific ]]; then
-    source $SCRIPTPATH/.zshrc.machine-specific
+if [[ -a $SCRIPTPATH/.bashrc.machine-specific ]]; then
+    source $SCRIPTPATH/.bashrc.machine-specific
 fi
 
 umask 077
@@ -107,9 +113,8 @@ source /etc/bash_completion.d/g4d
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/usr/local/google/home/wlifferth/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/google/home/wlifferth/google-cloud-sdk/path.zsh.inc'; fi
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/usr/local/google/home/wlifferth/google-cloud-sdk/completion.zsh.inc' ]; then . '/usr/local/google/home/wlifferth/google-cloud-sdk/completion.zsh.inc'; fi
-
 export PATH=$PATH:/usr/local/google/home/wlifferth/bin
 
 source '/usr/local/google/home/wlifferth/lib/azure-cli/az.completion'
+
+/bin/tmux
